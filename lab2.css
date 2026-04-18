@@ -1,0 +1,157 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "微软雅黑", sans-serif;
+    }
+.header{
+        width: 1200px;
+        height: 90px;
+        border-radius: 10px;
+        background: linear-gradient(to right,#87f5a3 0%,#779ee2 100%);
+        display: flex;
+        align-items: center;
+        margin: 15px auto 0;
+        padding: 0 20px;
+    }
+.word1{
+        color: white;
+        font-size: 30px;
+    }
+.word2{
+        color: white;
+        font-size: 16px;
+        margin-left: 750px;
+    }
+.word3{
+        color: white;
+        margin-left: 15px;
+    }
+.word4{
+        color: white;
+        margin-left: 15px;
+    }
+.container {
+      width: 1200px;
+      margin: 10px auto;
+      display: flex;
+      gap: 20px;
+    }
+.left-nav{
+        width:200px;
+        background-color:white;
+        border-radius:10px;
+        padding:20px;
+        box-shadow:0 4px 12px rgba(0,0,0,0.1);
+        flex-shrink: 0;
+    }
+.nav-title{
+        font-size:18px;
+        margin-bottom:15px;
+        padding-bottom:10px;
+        border-bottom:2px solid #77e6ba;
+        color:#2e8b57;
+    }
+.nav-menu{
+        list-style:none;
+    }
+.nav-menu li{
+        margin-bottom:12px;
+        padding:10px;
+        border-radius:5px;
+        cursor:pointer;
+        transition:all 0.3s ease;
+        font-size: 16px;
+    }
+.nav-menu li:hover{
+        background-color:#f0f5ff;
+        color:#2e8b57;
+        transform:translateX(5px);
+    }
+.nav-menu li.active{
+        background-color:#e6f0ff;
+        color:#2e8b57;
+        font-weight:bold;
+    }
+.main-content {
+      flex: 1;
+      background: #fff;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+.main-title {
+      font-size: 22px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+.book-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+.book-item {
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,.08);
+      text-align: center;
+      padding-bottom: 15px;
+    }
+.book-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      background: #eee;
+    }
+.book-item h4 {
+      margin: 12px 0 6px;
+      font-size: 16px;
+      padding: 0 10px;
+    }
+.book-item p {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+.price {
+      color: #ff4444;
+      font-size: 18px;
+      font-weight: bold;
+    }
+.right-ads {
+      width: 250px;
+      flex-shrink: 0;
+    }
+.ad-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+.ad-title {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #d5e14a;
+    }
+.points-promo {
+      background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+.points-promo1{
+      background:linear-gradient(135deg, #25caee 0%, #bbedee 100%);
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+}
+.points-promo h3 {
+      margin-bottom: 10px;
+    }
+.points-promo p {
+      font-size: 14px;
+    }
